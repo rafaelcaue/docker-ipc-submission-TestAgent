@@ -8,7 +8,7 @@ Command to run the Docker image:
 
 This will open a Docker container terminal.   
 To test, run the following commands:   
-`java -jar test-agent/build/libs/test-agent.jar`
+`java -jar test-agent/build/libs/test-agent.jar`   
 `<?xml version="1.0" encoding="UTF-8"?><command clientid="UONTEST1"><initiate><seed>10000</seed><gptfile>example-gpts-release/logistics/gpt-t5-a5-p10.xml</gptfile></initiate></command>`
 
 You should now see the expected messages in all 3 terminals without any errors.
