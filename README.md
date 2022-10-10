@@ -4,7 +4,7 @@ Command to build the Docker image (sudo/admin rights may be required depending h
 `docker build -t ipc-submission-testagent .`
 
 Command to run the Docker image:   
-`docker run -it --rm --network=host ipc-submission-testagent`
+`docker run -it --rm --network=ipc_server ipc-submission-testagent`
 
 This will open a Docker container terminal.   
 To test, run the following commands:   
