@@ -1,5 +1,9 @@
 This assumes you have done all the steps up to dealing with your solution from https://github.com/rafaelcaue/docker-ipc
 
+1. Create the network the containers will use: `docker network create ipc_network`
+
+`docker run -it --rm --network=ipc_network --name 127.0.0.1 ipc-simulator bash`
+
 Command to build the Docker image (sudo/admin rights may be required depending how docker was installed):   
 `docker build -t ipc-submission-testagent .`
 
